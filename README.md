@@ -1,37 +1,20 @@
-# 🤖 Ilenia Unida | Automation Specialist & AI Workflow Designer
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-[![GitHub followers](https://img.shields.io/github/followers/ilenia-unida?style=social)](https://github.com/ilenia-unida)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ilenia-unida)
+# Run and deploy your AI Studio app
 
-Questo repository contiene il codice sorgente completo del mio **Portfolio Professionale** in qualità di **Automation Specialist e AI Workflow Designer**.
+This contains everything you need to run your app locally.
 
-L'obiettivo del sito è presentare soluzioni di business innovative che combinano l'orchestrazione di sistemi complessi con l'intelligenza artificiale avanzata per creare processi autonomi e scalabili.
+View your app in AI Studio: https://ai.studio/apps/drive/18MVKtRxxuNH74p68V0GQYjCOPUhqXg30
 
-### 💡 Punti Salienti del Portfolio
+## Run Locally
 
-Il sito è una vetrina per oltre **15 flussi di lavoro** (Workflow) dettagliati, realizzati principalmente utilizzando:
+**Prerequisites:**  Node.js
 
-* **Orchestrazione:** **n8n** (per l'integrazione e l'automazione dei processi).
-* **Intelligenza Artificiale:** **Google Gemini** (per decision making avanzato, Lead Scoring, RAG e analisi dati).
 
-### 🛠️ Tecnologie Utilizzate
-
-* **Frontend:** HTML5, Tailwind CSS (per un design moderno e reattivo).
-* **Workflow Engine:** n8n Cloud / Self-hosted.
-* **LLMs & AI:** Google Gemini, Google Custom Search.
-* **Integrazioni Tipiche:** Slack, Google Drive, Notion, Zendesk.
-* **Chatbot:** Widget n8n Chat integrato per assistenza AI (RAG).
-
-### 🚀 Come Eseguire il Sito Localmente
-
-Se vuoi eseguire questo portfolio sulla tua macchina, segui questi passaggi:
-
-1.  **Clona il Repository:**
-    ```bash
-    git clone [https://github.com/ilenia-unida/YOUR_REPO_NAME.git](https://github.com/ilenia-unida/YOUR_REPO_NAME.git)
-    cd YOUR_REPO_NAME
-    ```
-2.  **Apri con un Browser:**
-    Apri il file `index.html` direttamente nel tuo browser.
-
-**Esplora il codice e i flussi di lavoro. Contattami per una consulenza sull'automazione del tuo business!**
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

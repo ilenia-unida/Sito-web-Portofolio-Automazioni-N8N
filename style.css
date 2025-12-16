@@ -1,0 +1,40 @@
+
+/* Custom Animations for Ilenia Unida Portfolio */
+
+/* Reveal on Scroll Base State */
+.reveal-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1s ease-out;
+}
+
+/* Reveal on Scroll Active State */
+.reveal-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Stagger delays */
+.delay-100 { transition-delay: 100ms; }
+.delay-200 { transition-delay: 200ms; }
+.delay-300 { transition-delay: 300ms; }
+
+/* Form autofill fix for dark theme */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #020617 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Hide scrollbar for clean modal (if used elsewhere) */
+.no-scroll {
+    overflow: hidden;
+}
